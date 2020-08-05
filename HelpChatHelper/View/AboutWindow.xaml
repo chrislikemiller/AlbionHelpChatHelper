@@ -1,0 +1,22 @@
+﻿<Window x:Class="HelpChatHelper.View.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HelpChatHelper"
+        mc:Ignorable="d"
+        Title="About" SizeToContent="WidthAndHeight">
+    <StackPanel Orientation="Vertical" Margin="15">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Created by csaki (IGN: Mesterke). Visit github for more projects: "/>
+            <TextBlock><Hyperlink NavigateUri="https://github.com/chrislikemiller/" RequestNavigate="Hyperlink_RequestNavigate">https://github.com/chrislikemiller/</Hyperlink></TextBlock>
+        </StackPanel>
+        <TextBlock/>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Icons made by "/>
+            <TextBlock><Hyperlink NavigateUri="https://smashicons.com/" RequestNavigate="Hyperlink_RequestNavigate">Smashicons</Hyperlink></TextBlock>
+            <TextBlock Text=" from "/>
+            <TextBlock><Hyperlink NavigateUri="www.flaticon.com/" RequestNavigate="Hyperlink_RequestNavigate">www.flaticon.com</Hyperlink></TextBlock>
+        </StackPanel>
+    </StackPanel>
+</Window>
